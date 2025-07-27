@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Image Gallery</h1>
+    <div class="full-img" id="fullImageBox">
+      <img src="somanath.jpg" id="fullImg" />
+      <span onclick="closeFullImg()">X</span>
+    </div>
+    <div class="img-gallery">
+      <img src="somanath.jpg" onclick="openFullImg(this.src)" />
+      <img src="mallikarjun.jpg" onclick="openFullImg(this.src)" />
+      <img src="mahakaleshwar-jyotirlinga.jpg" onclick="openFullImg(this.src)" />
+      <img
+        src="Omkareshwar-Jyotirlinga-Temple-1-768x1024.jpg"
+        onclick="openFullImg(this.src)"
+      />
+      <img
+        src="baidyanath-jyotirlinga-temple-deoghar.jpg"
+        onclick="openFullImg(this.src)"
+      />
+      <img src="bhimashankar.jpg" onclick="openFullImg(this.src)" />
+      <img src="rameshwar.jpg" onclick="openFullImg(this.src)" />
+      <img src="nageshwar-jyotirlinga.jpg" onclick="openFullImg(this.src)" />
+      <img src="vishwanath.jpg" onclick="openFullImg(this.src)" />
+      <img src="Trimbakeshwar-Jyotirlinga (1).jpg" onclick="openFullImg(this.src)" />
+      <img src="Inside-Kedarnath-Temple.jpg" onclick="openFullImg(this.src)" />
+      <img src="grishneshwar-3_orig.jpg" onclick="openFullImg(this.src)" />
+    </div>
+    <script defer src="script.js"></script>
+  </body>
+</html>
